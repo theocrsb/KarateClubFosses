@@ -1,0 +1,19 @@
+.blur {
+  filter: blur(4px);
+}
+
+.z-index0 {
+  z-index: 0;
+}
+
+.z-index10 {
+  z-index: 10;
+}
+
+.z-index100 {
+  z-index: 100;
+}
+
+.z-index200 {
+  z-index: 200;
+}
