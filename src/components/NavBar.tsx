@@ -1,14 +1,17 @@
 import { NavLink } from "react-router-dom";
+import image from "../logo.png";
+import "../index.css";
 
 const NavBar = () => {
   return (
     <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark shadow opacity-75">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
-          <NavLink to="/" className="nav-link">
-            Karaté Club Fosses
-          </NavLink>
-        </a>
+        {/* <a className="navbar-brand" href="#"> */}
+        <NavLink to="/" className="nav-link">
+          <img src={image} width={32} alt="logo de karate"></img> Karaté Club
+          Fosses
+        </NavLink>
+        {/* </a> */}
         <button
           className="navbar-toggler"
           type="button"
@@ -46,7 +49,7 @@ const NavBar = () => {
               placeholder="Search"
               aria-label="Search"
             />
-            <button className="btn btn-outline-dark" type="submit">
+            <button className="btn btn-outline-primary" type="submit">
               Search
             </button>
           </form>
