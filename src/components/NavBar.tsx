@@ -6,12 +6,12 @@ const NavBar = () => {
   return (
     <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-dark shadow opacity-75">
       <div className="container-fluid">
-        {/* <a className="navbar-brand" href="#"> */}
-        <NavLink to="/" className="nav-link">
-          <img src={image} width={32} alt="logo de karate"></img> Karaté Club
-          Fosses
-        </NavLink>
-        {/* </a> */}
+        <a className="navbar-brand" href="#">
+          <NavLink to="/" className="nav-link">
+            <img src={image} width={32} alt="logo de karate"></img> Karaté Club
+            Fosses
+          </NavLink>
+        </a>
         <button
           className="navbar-toggler"
           type="button"
