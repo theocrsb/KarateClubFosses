@@ -1,9 +1,7 @@
 
-
 const Home = () => {
   return (
     <div className="bg-grey">
-  
     </div>
   );
 };
